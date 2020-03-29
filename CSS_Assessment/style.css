@@ -1,0 +1,41 @@
+nav {
+    width: 100%;
+    background: gray;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;  
+}
+
+#content-wrapper {
+    overflow: auto;
+}
+
+#leftbox {
+    float: left;
+    width: 50%;
+    background: blue;
+    box-sizing: border-box;
+    padding: 250px;
+    text-align: center;
+}
+
+#rightbox {
+    float: right;
+    width: 25%;
+    background: red;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 250px;
+}
+
+footer {
+    clear: both;
+    background: green;
+    width: 100%;
+    position: absolute;
+    bottom: 1px;
+}
