@@ -1,29 +1,20 @@
 *,
 .jumbotron,
-.navbar {
+.navbar,
+button {
   color: white;
   background-color: #79b9c6;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-}
-
-html, body {
-  height: 100%;
-}
-
-/* body {
-  margin: 0;
-  line-height: 1.5;
   text-transform: uppercase;
+}
+
+body {
+  line-height: 1.5;
   background-color: #79b9c6;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-}
-
-.center_text {
-  text-align: center;
-  margin-top: 12%;
 }
 
 #fancy {
@@ -31,21 +22,17 @@ html, body {
   font-weight: normal;
 }
 
-#fdm {
-  font-size: 125%;
-}
-
 h1 {
   font-size: 600%;
-  margin: 10px;
 }
 
 button {
-  background-color: #79b9c6;
-  color: white;
   border: solid white;
-  text-transform: uppercase;
   border-radius: 3px;
-  padding: 8px;
-  font-weight: bold;
-} */
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 300%;
+	}
+}
